@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <div
-      className={`${geistSans.variable} ${geistMono.variable} flex flex-col justify-start min-h-screen gap-16 w-full`}
+      className={`${geistSans.variable} ${geistMono.variable} flex flex-col justify-start min-h-screen gap-16 w-screen`}
     >
       <header
         style={{ fontFamily: "Alata" }}
