@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <div
-      className={`${geistSans.variable} ${geistMono.variable} flex flex-col justify-start min-h-screen gap-16`}
+      className={`${geistSans.variable} ${geistMono.variable} flex flex-col justify-start min-h-screen gap-16 w-full`}
     >
       <header
         style={{ fontFamily: "Alata" }}
@@ -101,7 +101,7 @@ export default function Home() {
           rel="noopener noreferrer"
           href="/Plaquette.pdf"
           style={{ fontFamily: "Alata", letterSpacing: "0.1em" }}
-          className="font-bold text-lg text rounded-md bg-indigo-600 px-3.5 py-2.5 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          className="z-10 font-bold text-lg text rounded-md bg-indigo-600 px-3.5 py-2.5 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
           Plaquette
         </a>
