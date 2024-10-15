@@ -1,0 +1,26 @@
+.list li {
+  position: relative;
+  cursor: pointer;
+}
+
+@media (min-width: 767px) {
+  .list li::after {
+    content: "";
+    background: var(--color-white);
+    height: 2px;
+    width: 0;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition:
+      width 0.3s ease 0s,
+      left 0.3s ease 0s;
+  }
+
+  .list li:hover::after {
+    width: 40%;
+  }
+}
