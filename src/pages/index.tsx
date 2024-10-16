@@ -29,7 +29,7 @@ export default function Home() {
       >
         <div className="relative z-10 text-3xl sm:text-5xl font-bold flex items-center">
           <Image
-            className="dark:invert mt-2 mx-1"
+            className={`${displayScrollingMenu ? "dark:invert" : ""} mt-2 mx-1`}
             src="/images/icon-pokeball.svg"
             alt="Pokeball logo"
             width={40}
@@ -38,7 +38,7 @@ export default function Home() {
           />
           <Link href="/">Sportkemon</Link>
           <Image
-            className="dark:invert mt-2 mx-1"
+            className={`${displayScrollingMenu ? "dark:invert" : ""} mt-2 mx-1`}
             src="/images/icon-pokeball.svg"
             alt="Pokeball icon"
             width={40}
@@ -74,12 +74,11 @@ export default function Home() {
       <main className="flex flex-col justify-center gap-8 row-start-2 items-center">
         {/* from-[#ff80b5]  to-[#9089fc]*/}
         {/* from-[#9089fc] to-[#f2ff00] */}
-        {/* <div className="isolate px-6 pt-14 lg:px-8 z-2">
+        <div className="isolate px-6 pt-14 lg:px-8 z-2">
           <div
             className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80 w-screen h-screen"
             aria-hidden="true"
           >
-            
             <div
               className="left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5]  to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
               style={{
@@ -88,16 +87,13 @@ export default function Home() {
               }}
             ></div>
           </div>
-        </div> 
-        */}
+        </div>
         <Image
-          className="dark:invert"
           src="/images/logo-sportkemon.png"
           alt="Sportkemon logo"
           width={360}
           height={76}
           style={{ zIndex: 7 }}
-          priority
         />
         <a
           target="_blank"
@@ -108,20 +104,20 @@ export default function Home() {
         >
           Plaquette
         </a>
-        {/* <div className="isolate px-6 pt-14 lg:px-8 z-2">
+        <div className="isolate px-6 pt-14 lg:px-8 z-2">
           <div
             className="absolute inset-x-0 top-0 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-30 sm:right-0"
             aria-hidden="true"
           >
             <div
-              className="left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] translate-y-1/2 translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5]  to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+              className="left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] translate-y-1/2 translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5]  to-[#9089fc] opacity-60 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
               style={{
                 clipPath:
                   "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
               }}
             ></div>
           </div>
-        </div> */}
+        </div>
       </main>
     </div>
 
