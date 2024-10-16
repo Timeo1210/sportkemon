@@ -72,13 +72,14 @@ export default function Home() {
         </nav>
       </header>
       <main className="flex flex-col justify-center gap-8 row-start-2 items-center">
-        <div className="isolate px-6 pt-14 lg:px-8 z-2">
+        {/* from-[#ff80b5]  to-[#9089fc]*/}
+        {/* from-[#9089fc] to-[#f2ff00] */}
+        {/* <div className="isolate px-6 pt-14 lg:px-8 z-2">
           <div
             className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80 w-screen h-screen"
             aria-hidden="true"
           >
-            {/* from-[#ff80b5]  to-[#9089fc]*/}
-            {/* from-[#9089fc] to-[#f2ff00] */}
+            
             <div
               className="left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5]  to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
               style={{
@@ -87,7 +88,8 @@ export default function Home() {
               }}
             ></div>
           </div>
-        </div>
+        </div> 
+        */}
         <Image
           className="dark:invert"
           src="/images/sportkemon-logo.png"
@@ -106,13 +108,11 @@ export default function Home() {
         >
           Plaquette
         </a>
-        <div className="isolate px-6 pt-14 lg:px-8 z-2">
+        {/* <div className="isolate px-6 pt-14 lg:px-8 z-2">
           <div
             className="absolute inset-x-0 top-0 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-30 sm:right-0"
             aria-hidden="true"
           >
-            {/* from-[#ff80b5]  to-[#9089fc]*/}
-            {/* from-[#9089fc] to-[#f2ff00] */}
             <div
               className="left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] translate-y-1/2 translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5]  to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
               style={{
@@ -121,7 +121,7 @@ export default function Home() {
               }}
             ></div>
           </div>
-        </div>
+        </div> */}
       </main>
     </div>
 
