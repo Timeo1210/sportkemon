@@ -92,7 +92,7 @@ export default function Home() {
         */}
         <Image
           className="dark:invert"
-          src="/images/sportkemon-logo.png"
+          src="/images/logo-sportkemon.png"
           alt="Sportkemon logo"
           width={360}
           height={76}
