@@ -167,10 +167,10 @@ export default function Home() {
                     ? Les Ricks vous ont concocté une soirée à retourner votre
                     continuum espace-temps! ⏳ Au programme: - Roulette à lots -
                     Stand photo 📸 - Tire ton cocktail 🍸 - Chamboule tout 🥎 Tu
-                    pourras également profiter d'un repas succulent: des tacos
-                    🌮 (avec option végé) et des barbes à papas! Ne rate pas
-                    cette ambiance incroyable, et surtout la petite surprise de
-                    fin 👀, tout est dans le titre…😈
+                    pourras également profiter d&#39;un repas succulent: des
+                    tacos 🌮 (avec option végé) et des barbes à papas! Ne rate
+                    pas cette ambiance incroyable, et surtout la petite surprise
+                    de fin 👀, tout est dans le titre…😈
                   </p>
                 </div>
               </div>
